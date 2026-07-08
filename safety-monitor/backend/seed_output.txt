@@ -1,0 +1,30 @@
+﻿python : Traceback (most recent call last):
+At line:1 char:88
++ ... project\safety-monitor\backend; 
+python seed_demo_data.py 2>&1 | Out-F ...
++                                     
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: 
+    (Traceback (most recent call last)::St  
+  ring) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommand 
+   Error
+ 
+  File "C:\Users\HP\Downloads\varun_aadi_pro
+ject\varun_aadi_project\safety-monitor\backe
+nd\seed_demo_data.py", line 247, in <module>
+    seed_realistic_data()
+  File "C:\Users\HP\Downloads\varun_aadi_pro
+ject\varun_aadi_project\safety-monitor\backe
+nd\seed_demo_data.py", line 18, in 
+seed_realistic_data
+    print("\U0001f331 Seeding realistic 
+demo data...\n")
+  File "C:\Users\HP\AppData\Local\Programs\P
+ython\Python39\lib\encodings\cp1252.py", 
+line 19, in encode
+    return codecs.charmap_encode(input,self.
+errors,encoding_table)[0]
+UnicodeEncodeError: 'charmap' codec can't 
+encode character '\U0001f331' in position 
+0: character maps to <undefined>

@@ -1,0 +1,23 @@
+# Environment and virtual environment
+.env
+venv/
+env/
+__pycache__/
+*.pyc
+
+# IDEs
+.vscode/
+.idea/
+
+# Large files and directories
+models.zip
+models/
+data/
+logs/
+uploads/
+videos/
+
+# Node modules
+node_modules/
+dist/
+build/
